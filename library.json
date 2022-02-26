@@ -3,8 +3,8 @@
   "machineName": "H5P.PersonalityQuiz",
   "description": "Create a personality quiz and test which Game of Thrones or Hogwarts House your friends belong in.",
   "majorVersion": 1,
-  "minorVersion": 0,
-  "patchVersion": 8,
+  "minorVersion": 1,
+  "patchVersion": 0,
   "runnable": 1,
   "author": "Lumenia AS",
   "license": "MIT",
@@ -22,6 +22,13 @@
   "preloadedCss": [
     {
       "path": "css/personalityQuiz.css"
+    }
+  ],
+  "preloadedDependencies": [
+    {
+      "machineName": "FontKidsLoop",
+      "majorVersion": 1,
+      "minorVersion": 0
     }
   ],
   "editorDependencies": [
